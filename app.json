@@ -1,10 +1,9 @@
 {
   "expo": {
-    "name": "WebsharkHealth",
-    "slug": "WebsharkHealth",
+    "name": "WebsharkHealthQuickTest",
+    "slug": "webshark-health-quicktest",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -12,10 +11,7 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.crossxsid.websharkhealthquicktest"
     },
     "web": {
       "bundler": "metro",
@@ -24,30 +20,17 @@
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ],
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/images/splash-icon.png",
-          "color": "#ffffff",
-          "sounds": [
-            "./assets/sounds/notification-sound.wav"
-          ]
-        }
-      ],
       "expo-secure-store",
       "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d97f029e-361a-48d1-b426-1d375bc24199"
+      }
     }
   }
 }

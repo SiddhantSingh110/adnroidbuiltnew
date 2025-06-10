@@ -14,7 +14,7 @@ const ENV = {
 };
 
 // 🔧 MANUAL SWITCH - Change this when needed
-const CURRENT_ENV = 'development'; // Change to 'dev', 'staging', or 'prod'
+const CURRENT_ENV = 'staging'; // Change to 'dev', 'staging', or 'prod'
 
 const getEnvVars = () => {
   switch (CURRENT_ENV) {
