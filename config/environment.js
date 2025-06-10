@@ -1,6 +1,6 @@
 const ENV = {
   dev: {
-    apiUrl: 'http://192.168.0.112:8001/api', // Local ngrok
+    apiUrl: 'https://live.websharkmyhealth.com/api', // Local ngrok
     environment: 'development'
   },
   staging: {

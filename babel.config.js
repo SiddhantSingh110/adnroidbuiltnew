@@ -1,8 +1,5 @@
-module.exports = function (api) {
-    api.cache(true);
-    return {
-      presets: ['babel-preset-expo'],
-      plugins: ['expo-router/babel'], // ✅ required for v3
-    };
+// babel.config.js
+module.exports = {
+    presets: ['babel-preset-expo'],
   };
   
