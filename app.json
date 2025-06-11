@@ -19,9 +19,10 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
+      ["expo-router", { "pages": true }],
       "expo-secure-store",
-      "expo-font"
+      "expo-font",
+      ["expo-dev-client", { "addGeneratedScheme": false }]
     ],
     "experiments": {
       "typedRoutes": true
